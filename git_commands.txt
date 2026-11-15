@@ -1,0 +1,101 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir git-workflow-assignment
+   Creates a new project directory.
+
+2. cd git-workflow-assignment
+   Opens the project directory in the terminal.
+
+3. touch index.html about.html
+   Creates two HTML files.
+
+4. git init
+   Initializes a local Git repository.
+
+5. git config --global user.name "Your Name"
+   Sets the Git commit author name.
+
+6. git config --global user.email "your-email@example.com"
+   Sets the Git commit author email.
+
+7. git status
+   Displays the current repository status.
+
+8. git add index.html about.html
+   Stages the HTML files for committing.
+
+9. git commit -m "Initial commit: Add HTML pages"
+   Records the initial project version.
+
+10. git add index.html
+    Stages the modified homepage.
+
+11. git commit -m "Update homepage content"
+    Saves the homepage modification.
+
+12. git branch feature
+    Creates a branch named feature.
+
+13. git switch feature
+    Switches to the feature branch.
+
+14. git add about.html
+    Stages the feature branch modification.
+
+15. git commit -m "Add feature branch content"
+    Records the feature branch changes.
+
+16. git switch main
+    Returns to the main branch.
+
+17. git merge feature
+    Merges feature into main.
+
+18. git log --oneline --graph --all
+    Displays the repository's commit history and branches.
+
+19. touch .gitignore
+    Creates the Git ignore configuration file.
+
+20. mkdir temp
+    Creates a temporary folder for testing ignore rules.
+
+21. touch application.log
+    Creates a log file to test Git ignore rules.
+
+22. git status --ignored
+    Displays tracked, untracked and ignored files.
+
+23. git add .gitignore
+    Stages the ignore configuration.
+
+24. git commit -m "Add gitignore rules"
+    Saves the ignore configuration.
+
+25. git commit -m "Add temporary homepage message"
+    Creates an additional commit for the undo demonstration.
+
+26. git revert HEAD
+    Reverses the latest commit and creates a new commit.
+
+27. git remote add origin https://github.com/chatrapathyee/git-workflow-assignment
+    Connects the local repository to GitHub.
+
+28. git push -u origin main
+    Pushes the main branch to GitHub.
+
+29. git push -u origin feature
+    Pushes the feature branch to GitHub.
+
+30. git remote -v
+    Displays the configured remote repository URLs.
+
+31. git branch -a
+    Displays local and remote branches.
+
+32. git add git_commands.txt
+    Stages the command documentation file.
+
+33. git commit -m "Add Git command documentation"
+    Saves the command documentation.
